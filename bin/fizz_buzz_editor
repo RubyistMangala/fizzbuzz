@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require './lib/fizz_buzz'
+
+FizzBuzz.new(number: ARGV.first).run
